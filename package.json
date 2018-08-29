@@ -5,6 +5,7 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "gulp": "^3.9.1",
     "include-all": "^1.0.0",
     "npm": "^6.4.0",
     "rc": "1.0.1",

@@ -30,8 +30,28 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 8000 // Change this to your server port
-    return `http://localhost:${port}/data/restaurants.json`;
+    return `http://localhost:${port}/data/restaurants`;
   }
+
+  static get MAIN_REVIEWS() {
+    return "Reviews";
+  }
+
+  static get OFFLINE_REVIEWS() {
+    return "OfflineReviews";
+  }
+
+  static get FAV_RESTAURANTS() {
+    return "FavoritesRestaurants";
+  }
+
+  /**
+   * Return the url to add a restaurant to the favorites
+   */
+  static getFavoritePutUrl(idRestaurant) {
+    return `http://localhost:${SERVER_PORT}/restaurants/${idRestaurant}/?is_favorite=true`;
+  }
+
 
   /**
    * Fetch all restaurants.
