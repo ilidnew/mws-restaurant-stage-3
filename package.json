@@ -6,9 +6,10 @@
   "keywords": [],
   "dependencies": {
     "include-all": "^1.0.0",
+    "npm": "^6.4.0",
     "rc": "1.0.1",
     "sails": "^0.12.14",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "^0.10.10"
   },
   "scripts": {
     "debug": "node debug app.js",
