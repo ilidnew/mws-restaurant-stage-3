@@ -293,6 +293,20 @@ nav.breadcrumb [aria-current="page"] {
 #restaurant-hours td {
   color: #666; }
 
+#reviews-form-error {
+  color: red;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+#post-review-btn, #addto-favorites {
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  border: 0;
+}
+#post-review-btn:hover {
+  cursor: pointer;
+}
+
 form {
   text-align: center !important;
 }

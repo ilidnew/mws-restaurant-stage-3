@@ -117,7 +117,6 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
         aFav.setAttribute("onclick",`addToFavorites(${restaurant.id})`);
         aFav.setAttribute("id","addto-favorites");
         aFav.setAttribute("href","#restaurant-container");
-        aFav.setAttribute("class","color-white backg-green font-center");
         aFav.setAttribute("title","Add the " + restaurant.name + " restaurant to your favorites!");
         favorites.append(aFav)
       }
